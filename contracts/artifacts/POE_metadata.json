@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDocHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "storeDoc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "verifyDoc",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Daniel Osariemen Osazee",
+			"details": "This contract is a proof of existence service that verifies the existence of a document or file",
+			"kind": "dev",
+			"methods": {},
+			"title": "POE - proof of existence smart contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/POE.sol": "POE"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/POE.sol": {
+			"keccak256": "0x12a1b9fe3e27f8ad606e238c05f796d9309871e71fbc201d734ea1fceb3da678",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9782edae0eb5e681667b4ab1af4336f6140d9f54fafbe0b8c14a51577a8297d8",
+				"dweb:/ipfs/QmchRygcMQ9SNxpUKmB6kXgohzt7gpmpZMXYtCFW4LmuAd"
+			]
+		}
+	},
+	"version": 1
+}
